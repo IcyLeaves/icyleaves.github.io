@@ -20,30 +20,35 @@
     var CONFIG = {"hostname":"icyleaves.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="爱惜才不会离去">
-<meta property="og:type" content="website">
-<meta property="og:title" content="MINE MIND">
-<meta property="og:url" content="http://icyleaves.github.io/index.html">
+  <meta name="description" content="刚搭建起了个人博客，发现公共的外链图床对于博客上线是刚需（总不能真的在Github仓库里塞爆图片吧！），而这就又牵涉到如何发挥出图床的最大便利。那么这篇博客就是来记录一下我在寻找和使用图床的过程。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="图床，居家旅行必备的好伙伴">
+<meta property="og:url" content="http://icyleaves.github.io/2022/12/30/22-12-30-find-image-server/index.html">
 <meta property="og:site_name" content="MINE MIND">
-<meta property="og:description" content="爱惜才不会离去">
+<meta property="og:description" content="刚搭建起了个人博客，发现公共的外链图床对于博客上线是刚需（总不能真的在Github仓库里塞爆图片吧！），而这就又牵涉到如何发挥出图床的最大便利。那么这篇博客就是来记录一下我在寻找和使用图床的过程。">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.imgur.com/NCrhCMs.png">
+<meta property="article:published_time" content="2022-12-30T12:05:24.000Z">
+<meta property="article:modified_time" content="2023-01-03T13:14:51.235Z">
 <meta property="article:author" content="Icy Leaves">
+<meta property="article:tag" content="图床">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.imgur.com/NCrhCMs.png">
 
-<link rel="canonical" href="http://icyleaves.github.io/">
+<link rel="canonical" href="http://icyleaves.github.io/2022/12/30/22-12-30-find-image-server/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>MINE MIND</title>
+  <title>图床，居家旅行必备的好伙伴 | MINE MIND</title>
   
 
 
@@ -180,9 +185,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
@@ -198,10 +204,9 @@
       <meta itemprop="name" content="MINE MIND">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2022/12/30/22-12-30-find-image-server/" class="post-title-link" itemprop="url">图床，居家旅行必备的好伙伴</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          图床，居家旅行必备的好伙伴
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -240,190 +245,221 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>刚搭建起了个人博客，发现公共的外链图床对于博客上线是刚需（总不能真的在Github仓库里塞爆图片吧！），而这就又牵涉到如何发挥出图床的最大便利。那么这篇博客就是来记录一下我在寻找和使用图床的过程。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2022/12/30/22-12-30-find-image-server/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
+        <p>刚搭建起了个人博客，发现公共的外链图床对于博客上线是刚需（总不能真的在Github仓库里塞爆图片吧！），而这就又牵涉到如何发挥出图床的最大便利。那么这篇博客就是来记录一下我在寻找和使用图床的过程。</p>
+<span id="more"></span>
+<h2 id="什么是图床">什么是图床</h2>
+<p>图床（image
+hosting）是一种在线图像储存服务，它可以帮助你在网络上储存和分享图片。你可以将图片上传到图床，然后获取一个可以在网络上引用的图片链接，这样你就可以在其他网站或者博客中使用这张图片了。图床有助于减少本地图片的储存空间，并且可以帮助你在多个设备之间共享图片。——chatGPT</p>
+<p>另外需要补充的是，一般来说写博客引用图片等需要的是图床的外链功能，这个功能有时候并不需要认证用户，只需要图床服务器托管相应图片即可。而如果是存储相册等用途，则需要用户进行注册，并且为了防止滥用，也可能会限制注册用户的上传频率。</p>
+<h2 id="寻找合适的图床平台">寻找合适的图床平台</h2>
+<blockquote>
+<p><a
+target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/403554101">各种优质图床推荐-图床汇总
+- 知乎 (zhihu.com)</a></p>
+<p><a
+target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/581278930">2022最新11月能用图床盘点 -
+知乎 (zhihu.com)</a></p>
+</blockquote>
+<p>根据上述知乎专栏的汇总，我将其中提到的图床用表格的方式整理了一下（以2023-01-03时的表现为例）：</p>
+<table>
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 24%" />
+<col style="width: 4%" />
+<col style="width: 1%" />
+<col style="width: 1%" />
+<col style="width: 19%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>图床平台名</th>
+<th>建站年</th>
+<th>免注册上传</th>
+<th>国内</th>
+<th>海外</th>
+<th>大小限制（MB）<br />（游客/注册/付费）</th>
+<th>上传数量限制（张/月）<br />（注册/付费）</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a target="_blank" rel="noopener" href="https://www.imgurl.org/">ImgURL</a></td>
+<td>2017</td>
+<td>❌</td>
+<td>🪙</td>
+<td>✔️</td>
+<td>0/5/？</td>
+<td>450/3600-12000</td>
+</tr>
+<tr class="even">
+<td><a target="_blank" rel="noopener" href="https://postimages.org/">Postimages</a></td>
+<td>2004</td>
+<td>✔️</td>
+<td>✔️</td>
+<td>✔️</td>
+<td>24/24/48</td>
+<td><span class="math inline">\(\infty\)</span></td>
+</tr>
+<tr class="odd">
+<td><a target="_blank" rel="noopener" href="https://www.imagehub.cc/">ImageHub</a></td>
+<td>？</td>
+<td>❌</td>
+<td>✔️</td>
+<td>✔️</td>
+<td>10</td>
+<td><span class="math inline">\(\infty\)</span></td>
+</tr>
+<tr class="even">
+<td><a target="_blank" rel="noopener" href="https://sm.ms/">SM.MS</a></td>
+<td>2015</td>
+<td>❌</td>
+<td>✔️</td>
+<td>✔️</td>
+<td>0/5/10</td>
+<td>1000/310000<br />存储：5GB/100GB</td>
+</tr>
+<tr class="odd">
+<td><a target="_blank" rel="noopener" href="https://imgkr.com/">图壳</a></td>
+<td>2019</td>
+<td>❌</td>
+<td>✔️</td>
+<td>❌</td>
+<td>0/5/10-20</td>
+<td><span class="math inline">\(\infty\)</span></td>
+</tr>
+<tr class="even">
+<td><a target="_blank" rel="noopener" href="https://imgse.com/">路过图床</a></td>
+<td>2011</td>
+<td>✔️</td>
+<td>✔️</td>
+<td>✔️</td>
+<td>5/10/10</td>
+<td><span class="math inline">\(\infty\)</span></td>
+</tr>
+<tr class="odd">
+<td><a target="_blank" rel="noopener" href="https://z4a.net/">Z4A图床</a></td>
+<td>2016</td>
+<td>❌</td>
+<td>✔️</td>
+<td>✔️</td>
+<td>64</td>
+<td><span class="math inline">\(\infty\)</span>（2000+需要联系）</td>
+</tr>
+<tr class="even">
+<td><a target="_blank" rel="noopener" href="https://imgbb.com/">ImgBB</a></td>
+<td>？</td>
+<td>✔️</td>
+<td>✔️</td>
+<td>✔️</td>
+<td>32</td>
+<td><span class="math inline">\(\infty\)</span></td>
+</tr>
+<tr class="odd">
+<td><a target="_blank" rel="noopener" href="https://cdnjson.com/">CDN加速图床</a></td>
+<td>2020</td>
+<td>✔️</td>
+<td>✔️</td>
+<td>✔️</td>
+<td>5/10/10</td>
+<td><span class="math inline">\(\infty\)</span></td>
+</tr>
+<tr class="even">
+<td><a target="_blank" rel="noopener" href="https://imgur.com/">Imgur</a></td>
+<td>2009</td>
+<td>✔️</td>
+<td>上传❌，生成后✔️</td>
+<td>✔️</td>
+<td>20(GIF:200)</td>
+<td>50张/小时</td>
+</tr>
+</tbody>
+</table>
+<p>❌：不支持</p>
+<p>✔️：支持且不收费</p>
+<p>🪙：支持但收费</p>
+<h3 id="图床自建站">图床自建站</h3>
+<p>如果你恰好对以上图床都不满意，那么可以考虑自己建站。</p>
+<p>第一种方式是在云服务器上部署一个类似的图床平台：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://chevereto.com/">Chevereto - 图像托管程序</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/helloxz/imgurl">helloxz/imgurl:
+ImgURL是一个简单、纯粹的图床程序，让个人图床多一个选择。
+(github.com)</a></li>
+</ul>
+<p>第二种方式是直接使用云存储服务，比如GitHub，阿里云的OSS等，这种方式就需要一些插件或额外脚本来配合。</p>
+<h2
+id="typora自动上传图床picgo-core">Typora自动上传图床（PicGo-Core）</h2>
+<blockquote>
+<p><a
+target="_blank" rel="noopener" href="https://support.typora.io/Upload-Image/#image-uploaders">Upload
+Images - Typora Support</a></p>
+<p><a
+target="_blank" rel="noopener" href="https://picgo.github.io/PicGo-Core-Doc/zh/guide/config.html#自动生成">配置文件
+| PicGo-Core</a></p>
+</blockquote>
+<p>因为我使用图床服务主要还是为了方便自己写个人博客可以不用担心图片的麻烦，同时也看到了Typora支持在复制图片到Markdown文档时，自动使用第三方插件将图片上传到图床。那我自然是想借此机会好好尝试一下子。</p>
+<p>Typora主要支持PicGo-Core这款第三方插件，同时因为它是Node.js工具，跨平台的属性就在了。</p>
+<h3 id="选择搭配的图床">选择搭配的图床</h3>
+<p>PicGo支持部分图床平台（smms、imgur）和部分云存储（七牛云、阿里云OSS、GitHub、又拍云、腾讯云COS）。这边推荐<strong>imgur</strong>，除了上传图片有一定网络要求外，我认为这是最好用的免费图床。</p>
+<p>如果注册的比较晚，可能会需要国外手机号的短信验证码，这里推荐<a
+target="_blank" rel="noopener" href="https://smsreceivefree.com/country/usa">Receive SMS Online |
+Disposable Phone Numbers in USA
+(smsreceivefree.com)</a>，可以在线看到临时号码的短信消息，用它来注册吧。</p>
+<blockquote>
+<p><a
+target="_blank" rel="noopener" href="https://picgo.github.io/PicGo-Doc/zh/guide/config.html#imgur图床">配置手册
+| PicGo</a></p>
+</blockquote>
+<p>之后需要拿到账户的clientId，访问<a
+target="_blank" rel="noopener" href="https://api.imgur.com/oauth2/addclient">Add Client -
+Imgur</a>，并在<strong>Authorization type</strong>一栏选择 <strong>OAuth
+2 authorization without a callback URL</strong>。</p>
+<h3 id="配置picgo">配置PicGo</h3>
+<ul>
+<li>安装PicGo-Core，可以从Typora这里直接下载。</li>
+</ul>
+<figure>
+<img src="https://i.imgur.com/NCrhCMs.png"
+alt="image-20230103210113876" />
+<figcaption aria-hidden="true">image-20230103210113876</figcaption>
+</figure>
+<ul>
+<li>用imgur模板来生成配置文件，这里就需要clientId了</li>
+</ul>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">$ picgo <span class="built_in">set</span> uploader</span><br><span class="line">? Choose a(n) uploader</span><br><span class="line">  aliyun</span><br><span class="line">  tcyun</span><br><span class="line">  smms</span><br><span class="line">  github</span><br><span class="line">  qiniu</span><br><span class="line">&gt; imgur</span><br><span class="line">  upyun</span><br><span class="line">? clientId: xxx9cb0f5xxx</span><br></pre></td></tr></table></figure>
+<ul>
+<li>使用该配置文件</li>
+</ul>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ picgo use uploader</span><br><span class="line">? Use an uploader imgur</span><br><span class="line">[PicGo SUCCESS]: Configure config successfully!</span><br></pre></td></tr></table></figure>
+
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
+          <div class="post-tags">
+              <a href="/tags/%E5%9B%BE%E5%BA%8A/" rel="tag"># 图床</a>
+          </div>
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://icyleaves.github.io/2022/12/18/test-markdown/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Icy Leaves">
-      <meta itemprop="description" content="爱惜才不会离去">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="MINE MIND">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2022/12/18/test-markdown/" class="post-title-link" itemprop="url">Markdown 示例样式演示</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2022-12-18 14:19:43" itemprop="dateCreated datePublished" datetime="2022-12-18T14:19:43+08:00">2022-12-18</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-12-30 22:04:16" itemprop="dateModified" datetime="2022-12-30T22:04:16+08:00">2022-12-30</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Markdown/" itemprop="url" rel="index"><span itemprop="name">Markdown</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>为了测试 Markdown 的样式，我在这里写了一些 Markdown
-的语法，以便于测试博客上显示各种 Markdown 语法是否存在问题。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2022/12/18/test-markdown/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
         
-      
-    </div>
 
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://icyleaves.github.io/2022/12/18/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Icy Leaves">
-      <meta itemprop="description" content="爱惜才不会离去">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="MINE MIND">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2022/12/18/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2022-12-18 14:02:34" itemprop="dateCreated datePublished" datetime="2022-12-18T14:02:34+08:00">2022-12-18</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-12-25 19:47:28" itemprop="dateModified" datetime="2022-12-25T19:47:28+08:00">2022-12-25</time>
-              </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very
-first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for
-more info. If you get any problems when using Hexo, you can find the
-answer in <a
-target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
-you can ask me on <a
-target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2022/12/18/hello-world/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
         
-      
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/12/18/test-markdown/" rel="prev" title="Markdown 示例样式演示">
+      <i class="fa fa-chevron-left"></i> Markdown 示例样式演示
+    </a></div>
+      <div class="post-nav-item"></div>
     </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
       </footer>
+    
   </article>
   
   
-  
-
-
   
 
 
@@ -476,6 +512,7 @@ target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitH
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E5%9B%BE%E5%BA%8A"><span class="nav-number">1.</span> <span class="nav-text">什么是图床</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AF%BB%E6%89%BE%E5%90%88%E9%80%82%E7%9A%84%E5%9B%BE%E5%BA%8A%E5%B9%B3%E5%8F%B0"><span class="nav-number">2.</span> <span class="nav-text">寻找合适的图床平台</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9B%BE%E5%BA%8A%E8%87%AA%E5%BB%BA%E7%AB%99"><span class="nav-number">2.1.</span> <span class="nav-text">图床自建站</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#typora%E8%87%AA%E5%8A%A8%E4%B8%8A%E4%BC%A0%E5%9B%BE%E5%BA%8Apicgo-core"><span class="nav-number">3.</span> <span class="nav-text">Typora自动上传图床（PicGo-Core）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%80%89%E6%8B%A9%E6%90%AD%E9%85%8D%E7%9A%84%E5%9B%BE%E5%BA%8A"><span class="nav-number">3.1.</span> <span class="nav-text">选择搭配的图床</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%85%8D%E7%BD%AEpicgo"><span class="nav-number">3.2.</span> <span class="nav-text">配置PicGo</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
